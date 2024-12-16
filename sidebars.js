@@ -141,6 +141,7 @@ const sidebars = {
           items: [
             'build/smart-contracts/verify/block-explorers',
             'build/smart-contracts/verify/hardhat',
+            'build/smart-contracts/verify/sourcify',
           ],
         },
         {
@@ -472,6 +473,18 @@ const sidebars = {
     'references/signed-message',
     'references/transaction-error-codes',
     'references/contract-addresses',
+    ...commonSidebar,
+  ],
+  miniDappSidebar: [
+    {
+      type: 'category',
+      label: 'Build Mini dApps on LINE with Unity',
+      link: { type: 'doc', id: 'minidapps/minidapps' },
+      items: [
+        'minidapps/build-unity-app',
+        'minidapps/convert-unity-liff',
+      ],
+    },
     ...commonSidebar,
   ],
 }
